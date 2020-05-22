@@ -27,7 +27,7 @@ class Eyelash(CategoryPage, DrawStyleTable):
             self.setValueForTextFiledWithRecognizedText('SKU:', skuID)
             self.clickButtonWithLabel('确定')
             time.sleep(3)
-            self.setValueForTextFiledWithRecognizedText('RGB值:', colorStr)
+            self.setValueForTextFiledWithRecognizedText('RGB值:', public.randomColor())
         except Exception as e:
             print('failed: 填写数据失败')
             print(e)

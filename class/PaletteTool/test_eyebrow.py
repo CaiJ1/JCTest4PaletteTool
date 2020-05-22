@@ -22,7 +22,7 @@ class Eyebrow(CategoryPage):
             self.setValueForTextFiledWithRecognizedText('SKU:', skuID)
             self.clickButtonWithLabel('确定')
             time.sleep(3)
-            self.setValueForTextFiledWithRecognizedText('RGB1:', colorStr)
+            self.setValueForTextFiledWithRecognizedText('RGB1:', public.randomColor())
         except Exception as e:
             print('failed: 填写数据失败')
             print(e)
@@ -30,7 +30,7 @@ class Eyebrow(CategoryPage):
         try:
             self.clickButtonWithLabel('新增一个RGB')
             time.sleep(3)
-            self.setValueForTextFiledWithRecognizedText('RGB2:', colorStr2)
+            self.setValueForTextFiledWithRecognizedText('RGB2:', public.randomColor())
         except Exception as e:
             print('failed: 输入第二个RGB')
             print(e)

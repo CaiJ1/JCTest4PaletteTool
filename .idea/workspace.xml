@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f20f998-d0f2-4435-bd65-2d6ba82ee047" name="Default Changelist" comment="" />
+    <list default="true" id="2f20f998-d0f2-4435-bd65-2d6ba82ee047" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/PaletteTool/test_blush.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/test_blush.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/PaletteTool/test_eyebrow.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/test_eyebrow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/PaletteTool/test_eyelash.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/test_eyelash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/PaletteTool/test_eyeliner.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/test_eyeliner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/PaletteTool/test_foundation.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/test_foundation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/PaletteTool/test_lip.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/test_lip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/constValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/constValue.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +25,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Wbk9IfEb89PSpc2vTL34f6soQy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -138,6 +153,17 @@
       <updated>1579425528603</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

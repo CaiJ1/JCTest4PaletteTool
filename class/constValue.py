@@ -1,5 +1,7 @@
 # coding = utf-8
 
+import public
+
 """
     京东测试脚本
     常量设置
