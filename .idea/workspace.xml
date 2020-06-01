@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f20f998-d0f2-4435-bd65-2d6ba82ee047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/class/JD4iPhone/jdModule_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/temp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/temp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/public_appium.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/constValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/constValue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/ios_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/ios_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/JD4iPhone/jdModule_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/JD4iPhone/jdModule_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/PaletteTool/ios_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/ios_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Template" />
         <option value="Python Stub" />
         <option value="Python Script" />
+        <option value="Python Template" />
       </list>
     </option>
   </component>
@@ -62,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ios_test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="temp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +104,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jdModule_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="temp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class/JD4iPhone" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class/JD4iPhone/jdModule_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="temp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,6 +157,10 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.jdModule_test" />
+      <item itemvalue="Python.ios_test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ios_test" />
