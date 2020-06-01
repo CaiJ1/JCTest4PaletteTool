@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f20f998-d0f2-4435-bd65-2d6ba82ee047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/class/public_appium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/JD4iPhone/networkPage_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/temp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/temp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class/JD4iPhone/jdModule_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/JD4iPhone/jdModule_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/PaletteTool/ios_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/PaletteTool/ios_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/public_appium.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/public_appium.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ios_test">
+  <component name="RunManager" selected="Python.jdModule_test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="temp" />
       <option name="INTERPRETER_OPTIONS" value="" />

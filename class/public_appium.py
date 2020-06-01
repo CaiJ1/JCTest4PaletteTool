@@ -2,7 +2,7 @@
 __author__ = "jiacai"
 
 from appium import webdriver
-import random
+import time
 
 def lanchApp(bundleID, appPath='', orgID=''):
     desired_caps = {'platformName': 'ios',
@@ -47,6 +47,23 @@ def changeToOtherAppAndBack(driver, mainStr, otherStr='com.apple.springboard'):
     driver.activate_app(mainStr)
 
 
+### 定位元素方法
+    def findUniqueViewWithVisibleText(driver, text):
+        """
+        根据可视的标签文字， 定位唯一View
+        :param driver: webdriver
+        :param text: 可视文字（可以是其中一部分）
+        :return: 查找到的View
+        """
+        return driver.find_element_by_ios_predicate('label CONTAINS "{}" OR name CONTAINS "{}" OR value CONTAINS "{}" '.format(text, text, text))
 
+    def findUniqueTextFieldWithFrontLabelText(driver, FrontLabelText):
+        """
+       根据输入框 前的标识label， 定位输入框 （label、textField需要同级别， 且无其它textField）
+       :param driver: webdriver
+       :param FrontLabelText: 输入框 前面的标识label
+       :return: 查找到的 textField
+       """
+        return driver.find_element_by_xpath('//XCUIElementTypeStaticText[@label="{}"]/..//XCUIElementTypeTextField'.format(FrontLabelText))
 
 
