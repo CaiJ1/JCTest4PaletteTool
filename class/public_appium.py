@@ -48,7 +48,7 @@ def changeToOtherAppAndBack(driver, mainStr, otherStr='com.apple.springboard'):
 
 
 ### 定位元素方法
-    def findUniqueViewWithVisibleText(driver, text):
+def findUniqueViewWithVisibleText(driver, text):
         """
         根据可视的标签文字， 定位唯一View
         :param driver: webdriver
@@ -57,7 +57,7 @@ def changeToOtherAppAndBack(driver, mainStr, otherStr='com.apple.springboard'):
         """
         return driver.find_element_by_ios_predicate('label CONTAINS "{}" OR name CONTAINS "{}" OR value CONTAINS "{}" '.format(text, text, text))
 
-    def findUniqueTextFieldWithFrontLabelText(driver, FrontLabelText):
+def findUniqueTextFieldWithFrontLabelText(driver, FrontLabelText):
         """
        根据输入框 前的标识label， 定位输入框 （label、textField需要同级别， 且无其它textField）
        :param driver: webdriver
