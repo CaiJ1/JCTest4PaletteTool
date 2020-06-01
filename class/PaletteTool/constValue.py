@@ -8,7 +8,7 @@ import public
 """
 # 常用值设置
 # palette tool
-skuID = '7207010'  # 国内-12345676 泰国-7207010
+skuID = '7157797'  # 国内-12345676 泰国-7207010-7157797
 colorStr = 'ff0000'
 colorStr2 = 'ff00ff'
 
